@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<client>
+<!-- Endpoints used for ESA connections -->
+	<endpoint name="TRAIN-DX-Tourplan"
+            address="http://supplier.link.tourplan.com:8020/TPM_TRAINING/Services/ExternalSupplier.svc/ws"/>
+			
+	<endpoint name="DX-Tourplan"
+            address="http://supplier.link.tourplan.com:8030/TPM/Services/ExternalSupplier.svc/ws"/>
+			
+	<endpoint name="TRAIN-DX1-Tourplan"
+            address="http://41.222.38.251:8020/TPM_TRAINING/Services/ExternalSupplier.svc/ws"/>
+			
+	<endpoint name="DX1-Tourplan"
+            address="http://41.222.38.251:8030/TPM/Services/ExternalSupplier.svc/ws"/>
+	
+	
+<!-- LEGACY Endpoints used for ESA connections -->
+	<endpoint name="ZA_TPM_TRAIN"
+            address="http://41.222.38.251:8020/TPM_TRAINING/Services/ExternalSupplier.svc/ws"/>
+			
+	<endpoint name="TRAIN_ZA_TPM"
+            address="http://41.222.38.251:8020/TPM_TRAINING/Services/ExternalSupplier.svc/ws"/>
+			
+	<endpoint name="PROD_ZA_TPM"
+            address="http://41.222.38.251:8030/TPM/Services/ExternalSupplier.svc/ws"/>
+			
+	<endpoint name="ZA_TPM_PROD"
+            address="http://41.222.38.251:8030/TPM/Services/ExternalSupplier.svc/ws"/>
+			
+	<endpoint name="TPM_TRAINING"
+            address="http://supplier.link.tourplan.com:8020/TPM_TRAINING/Services/ExternalSupplier.svc/ws"/>
+			
+	<endpoint name="TPM"
+            address="http://supplier.link.tourplan.com:8030/TPM/Services/ExternalSupplier.svc/ws"/>
+	
+</client>
