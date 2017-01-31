@@ -1,0 +1,19 @@
+{
+  "name": "jason",
+  "version": "1.0.0",
+  "description": "angualr test stuff",
+  "main": "index.js",
+  "scripts": {
+        "start": "npm install && gulp build",
+        "run": "gulp run",
+        "build": "gulp build",
+        "release": "gulp clean && gulp build && gulp release && gulp zip",
+        "test": "gulp test",
+        "clean": "gulp clean",
+        "fmt": "gulp fmt",
+        "buildexe": "electron-packager release/standard nxexe --platform=win32 --arch=x64",
+        "electron": "electron release/standard/main.js"
+    },
+  "author": "",
+  "license": "ISC"
+}

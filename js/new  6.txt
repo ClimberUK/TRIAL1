@@ -1,0 +1,49 @@
+
+PAX
+Insert PAX
+Edit PAX
+Delete PAX
+
+Configuration
+Add Pax to Existing Configuration
+	Confirm service cost changes
+Remove Pax from Existing Configuration
+
+
+
+Create Booking (Default to 2 Pax)
+Confirm Room Configuration grid/list is empty
+Edit a Pax Name
+Add a service
+
+
+Navigate to Operations > Fastbook or if required Click "Cancel" to clear the current selection. (optional)
+
+Click "Insert New Booking"
+
+A "Create Booking" Dialog should appear. Create a new Booking, ensuring:
+
+One of the Default Room Configurations for 2 pax is chosen
+Click "Pax Name Details". A "Pax Names" Dialog should appear.
+Enter a Pax Name (Title, Forename and Surname)
+Click "Next"
+Add a second Pax Name.
+Click "Finish" . The "Create Booking" Dialog should re-appear.
+Click "Save". The "Service Line Insert" Dialog should appear.
+
+
+Create a booking that uses on of the Default Pax Configuration choices Without Entering Pax Names.
+When prompted to add a service, cancel and navigate to Booking Details > Pax Traveling
+Confirm that the correct number of pax chosen from the default are listed
+Confim that no Room Configurations are listed in the "Room Configuration" Tab
+
+
+
+
+Recall existing booking and ensure that: 
+A new room can be defined and existing services attached correctly 
+An existing room can be deleted and room links reset correctly 
+An existing room can have pax quantities altered and service lines updated 
+Names can be added, deleted and changed for existing rooms
+A room type that is invalid for at least on of the existing services is rejected
+

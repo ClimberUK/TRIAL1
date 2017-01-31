@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jason's AngularJS Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<script src="js/myController.js"></script>
+<script src="js/myDirective.js"></script>
+<script src="js/menu.js"></script>
+<div ng-app="myApp" ng-controller="myController" ng-init>
+
+First Name: <input type="text" ng-model="firstName"><br>
+Last Name: <input type="text" ng-model="lastName"><br>
+<br>
+Full Name: {{fullName()}}
+<br>
+
+<my-directive details="{{$scope}}"></my-directive>
+<br>
+<menu title="Menu" items="items"/>
+
+
+</body>
+</html>

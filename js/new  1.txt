@@ -1,0 +1,34 @@
+ LA-T133.002.002 - Insert a new Rate
+Page: LA-T133.002.003 - Split a Rate Date Range
+Page: LA-T133.002.004 - Copy a Rate Date Range
+Page: LA-T133.002.005 - Insert a new Rate Set
+Page: LA-T133.003.002 - Delete a Rate
+
+
+
+Hi Juan Pa
+
+Firstly thanks for your latest tests, these were great and I have some feedback for you on these. 
+
+With regards to your comments on Test LA-T133.001.003 - We are drafting a FAQ section to detail the search behaviours and our current thinking in this area. I will notify you when this is uploaded and would welcome your comments.
+
+LA-T(2)133.002.001 - Insert a new Product
+We havent been able to reproduce this problem, Please could you repeat this test and let us know if you are able to reproduce.
+The code at the moment as you will appreciate is changing all the time and this issue may have been dealt with. I have put a fresh test template up for you under Product Setup Tests
+
+With regards to the behavior in notes could you let us know a product code that has this behavior in its notes.
+
+
+LA-T133.006.001 - Used In
+This is a bug, a Ticket has been raised.
+
+
+Tourplan uses several approaches to navigating through and searching for creditors, bookings, products and more. The results returned are intentionaly different and are needed to fulfil two very different set of needs.
+
+Firstly - to meet the prev/next feature intergral to all Applications in the iS back-office suite Tourplan NX returns paged results starting with the user's entry. 
+For Example entering 'smith' in the booking name entry in Fastbook wiil return a page of bookings where the name Starts With 'Smith', the results are not limited to 'Smith'
+
+Secondly - Tourplan provides search screens for suppliers, Products, bookings etc. This will use a Code From strategy that behaves as above. Additionally Tourplan features a "contains" search approach where results are restricted to only those matching the user's search. For example entering 'Smith' in the "Address Contains" entry on the Agent Search Screen will return only the Agents with 'Smith' in the address the results are limited to this.
+
+
+

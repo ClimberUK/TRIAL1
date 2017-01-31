@@ -1,0 +1,27 @@
+p {
+  color: #999;
+}
+
+.msg-block {
+  margin-right: 145px;
+}
+
+#dirtyForm .ng-dirty.ng-invalid {
+  background: red;
+}
+#dirtyForm .ng-dirty.ng-valid {
+  background: chartreuse;
+}
+
+#touchedForm .ng-touched.ng-valid,
+#touchedForm .ng-dirty.ng-valid {
+  background: lightgreen;
+}
+#touchedForm .ng-touched.ng-invalid,
+#touchedForm .ng-dirty.ng-invalid {
+  background: darksalmon;
+}
+
+code {
+  color: #777;
+}
